@@ -1,6 +1,6 @@
 {
   "author": "Shinichi Tomita <shinichi.tomita@gmail.com>",
-  "name": "jsforce",
+  "name": "nktnet1-jsforce",
   "description": "Salesforce API Library for JavaScript",
   "keywords": [
     "salesforce",
@@ -9,17 +9,17 @@
     "force.com",
     "database.com"
   ],
-  "homepage": "http://github.com/jsforce/jsforce",
-  "version": "3.10.15",
+  "homepage": "http://github.com/nktnet1/jsforce",
+  "version": "0.1.0",
   "repository": {
     "type": "git",
-    "url": "git://github.com/jsforce/jsforce.git"
+    "url": "git://github.com/nktnet1/jsforce.git"
   },
   "license": "MIT",
   "licenses": [
     {
       "type": "MIT",
-      "url": "http://github.com/jsforce/jsforce/raw/main/LICENSE"
+      "url": "http://github.com/nktnet1/jsforce/raw/main/LICENSE"
     }
   ],
   "main": "./index",
@@ -195,7 +195,7 @@
     "test:setup:org": "zx scripts/org-setup.mjs",
     "typecheck": "wireit",
     "proxy-server": "wireit",
-    "clean": "rimraf --glob lib/* module/* browser/*",
+    "clean": "rimraf --glob lib/* module/* browser/* *.tsbuildinfo .wireit",
     "clean-test-failures-file": "rimraf test/karma/karma-failed-tests.txt",
     "jsforce-node": "ts-node scripts/jsforce-node.ts",
     "jsforce-node:dev": "ts-node scripts/jsforce-node.ts --dev"
