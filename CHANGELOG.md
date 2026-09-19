@@ -1,45 +1,40 @@
-## [3.10.19](https://github.com/jsforce/jsforce/compare/3.10.18...3.10.19) (2026-07-02)
+## [3.10.25](https://github.com/jsforce/jsforce/compare/3.10.24...3.10.25) (2026-09-04)
 
 
 ### Bug Fixes
 
-* docs creation action should work again @W-23176525@ ([#1810](https://github.com/jsforce/jsforce/issues/1810)) ([4eec8e4](https://github.com/jsforce/jsforce/commit/4eec8e45a1ac1b13cb0a75baab65b48009f0822f))
+* export describe-related types from common ([#1828](https://github.com/jsforce/jsforce/issues/1828)) ([311b183](https://github.com/jsforce/jsforce/commit/311b183a8fa690bc5e92814d03544b7ef9d2f972))
 
 
 
-## [3.10.18](https://github.com/jsforce/jsforce/compare/3.10.17...3.10.18) (2026-06-29)
-
-
-### Bug Fixes
-
-* reenabling proper node tests @W-22477115@ ([#1808](https://github.com/jsforce/jsforce/issues/1808)) ([8babac6](https://github.com/jsforce/jsforce/commit/8babac66213646f1d2110050eeb92caaa0909431))
+## [3.10.24](https://github.com/jsforce/jsforce/compare/3.10.23...3.10.24) (2026-08-27)
 
 
 
-## [3.10.17](https://github.com/jsforce/jsforce/compare/3.10.16...3.10.17) (2026-06-25)
+## [3.10.23](https://github.com/jsforce/jsforce/compare/3.10.22...3.10.23) (2026-08-24)
 
 
 ### Bug Fixes
 
-* switched from node-fetch to native fetch API @W-23121570@ ([#1807](https://github.com/jsforce/jsforce/issues/1807)) ([ccddfee](https://github.com/jsforce/jsforce/commit/ccddfee319fc08ecca25e967c22fc69727e5a4a9))
+* force release ([#1825](https://github.com/jsforce/jsforce/issues/1825)) ([bd91d08](https://github.com/jsforce/jsforce/commit/bd91d08177ac4f3fac3171881a35f11733213953))
 
 
 
-## [3.10.16](https://github.com/jsforce/jsforce/compare/3.10.15...3.10.16) (2026-06-12)
-
-
-### Bug Fixes
-
-* release ([8ce0df6](https://github.com/jsforce/jsforce/commit/8ce0df66c0e5274a466ef4c07a20c30eb3a76f55))
-
-
-
-## [3.10.15](https://github.com/jsforce/jsforce/compare/3.10.14...3.10.15) (2026-05-13)
+## [3.10.22](https://github.com/jsforce/jsforce/compare/3.10.21...3.10.22) (2026-08-18)
 
 
 ### Bug Fixes
 
-* timeouts calculate once instead of repeatedly ([#1792](https://github.com/jsforce/jsforce/issues/1792)) ([22705e7](https://github.com/jsforce/jsforce/commit/22705e79380c1414e3d71abb1d79e77657afdb76))
+* Use URL API for OAuth2 endpoint construction @W-23807280@ ([#1823](https://github.com/jsforce/jsforce/issues/1823)) ([2b721bc](https://github.com/jsforce/jsforce/commit/2b721bc4da115dbba8c140393d026744e934e71d))
+
+
+
+## [3.10.21](https://github.com/jsforce/jsforce/compare/3.10.20...3.10.21) (2026-08-18)
+
+
+### Reverts
+
+* Revert "Use URL API for OAuth2 endpoint construction @W-23807280@ (#1819)" (#1821) ([10c8e30](https://github.com/jsforce/jsforce/commit/10c8e30cf618fe2d9207d39d9c30fc5e7e69f715)), closes [#1819](https://github.com/jsforce/jsforce/issues/1819) [#1821](https://github.com/jsforce/jsforce/issues/1821)
 
 
 
