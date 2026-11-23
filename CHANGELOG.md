@@ -1,40 +1,45 @@
-## [3.10.25](https://github.com/jsforce/jsforce/compare/3.10.24...3.10.25) (2026-09-04)
+## [3.13.4](https://github.com/jsforce/jsforce/compare/3.13.3...3.13.4) (2026-11-22)
 
 
 ### Bug Fixes
 
-* export describe-related types from common ([#1828](https://github.com/jsforce/jsforce/issues/1828)) ([311b183](https://github.com/jsforce/jsforce/commit/311b183a8fa690bc5e92814d03544b7ef9d2f972))
+* ignore only the browser build output in .gitignore ([#1868](https://github.com/jsforce/jsforce/issues/1868)) ([4ed3950](https://github.com/jsforce/jsforce/commit/4ed395012e70ba07a3752b57aa2e7866b7584336))
 
 
 
-## [3.10.24](https://github.com/jsforce/jsforce/compare/3.10.23...3.10.24) (2026-08-27)
-
-
-
-## [3.10.23](https://github.com/jsforce/jsforce/compare/3.10.22...3.10.23) (2026-08-24)
+## [3.13.3](https://github.com/jsforce/jsforce/compare/3.13.2...3.13.3) (2026-11-20)
 
 
 ### Bug Fixes
 
-* force release ([#1825](https://github.com/jsforce/jsforce/issues/1825)) ([bd91d08](https://github.com/jsforce/jsforce/commit/bd91d08177ac4f3fac3171881a35f11733213953))
+* keep the rotated refresh token after session refresh ([#1864](https://github.com/jsforce/jsforce/issues/1864)) ([63b7e36](https://github.com/jsforce/jsforce/commit/63b7e3697a31aca68884d00efafb1aeb6a08aad0))
 
 
 
-## [3.10.22](https://github.com/jsforce/jsforce/compare/3.10.21...3.10.22) (2026-08-18)
+## [3.13.2](https://github.com/jsforce/jsforce/compare/3.13.1...3.13.2) (2026-11-20)
 
 
 ### Bug Fixes
 
-* Use URL API for OAuth2 endpoint construction @W-23807280@ ([#1823](https://github.com/jsforce/jsforce/issues/1823)) ([2b721bc](https://github.com/jsforce/jsforce/commit/2b721bc4da115dbba8c140393d026744e934e71d))
+* **ci:** fix browser test and scratch org setup failures ([#1865](https://github.com/jsforce/jsforce/issues/1865)) ([f6dbd8a](https://github.com/jsforce/jsforce/commit/f6dbd8a82d7c0f42f09703977473795780adf95f))
 
 
 
-## [3.10.21](https://github.com/jsforce/jsforce/compare/3.10.20...3.10.21) (2026-08-18)
+## [3.13.1](https://github.com/jsforce/jsforce/compare/3.13.0...3.13.1) (2026-10-27)
 
 
-### Reverts
+### Bug Fixes
 
-* Revert "Use URL API for OAuth2 endpoint construction @W-23807280@ (#1819)" (#1821) ([10c8e30](https://github.com/jsforce/jsforce/commit/10c8e30cf618fe2d9207d39d9c30fc5e7e69f715)), closes [#1819](https://github.com/jsforce/jsforce/issues/1819) [#1821](https://github.com/jsforce/jsforce/issues/1821)
+* **ci:** upgrade wireit caching action to v2- @W-24682309@ ([#1856](https://github.com/jsforce/jsforce/issues/1856)) ([bcd16b5](https://github.com/jsforce/jsforce/commit/bcd16b593351a1d7db6665b1043d8168b04b225d))
+
+
+
+# [3.13.0](https://github.com/jsforce/jsforce/compare/3.12.0...3.13.0) (2026-10-27)
+
+
+### Features
+
+* add DeployExtensionResult to metadata schema ([#1832](https://github.com/jsforce/jsforce/issues/1832)) ([4a0b587](https://github.com/jsforce/jsforce/commit/4a0b587612c093935dca46db3bc35e48bb4d788c))
 
 
 
